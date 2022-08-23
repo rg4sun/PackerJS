@@ -1,0 +1,25 @@
+/* NOTE: you can import your css dependencies here */
+/*  e.g. */
+/* @import url(common/css/bootstrap.min.css); */
+
+/* write your style here ↓ */
+/* START: example here, remove it and fill your fancy code !*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', 'Open Sans', Avenir, Helvetica, Arial, sans-serif !important;
+}
+
+body {
+  padding-top: 64px;
+  min-width: 375px;
+}
+
+h1 {
+  font-size: 30px !important;
+  text-align: center;
+  color: #fff;
+  line-height: 60px !important;
+  margin-right: 15px;
+}
+/* END: example here */
