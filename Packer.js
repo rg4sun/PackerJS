@@ -99,7 +99,7 @@ handleFile(TEMPLATE_PATH)
 
     let temp_data = document.querySelector('html').outerHTML
     // console.log(temp_data)
-    let DOCTYPE = '<!DOCTYPE html>\n'
+    let DOCTYPE = '<!DOCTYPE html>'
     temp_data = DOCTYPE + temp_data
 
     fs.writeFile(INTEGRATED_HTML, temp_data, 'utf-8', err => {

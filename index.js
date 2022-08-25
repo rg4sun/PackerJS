@@ -1,7 +1,7 @@
 /* NOTE:
  * Since your are writing your site in a "old-fashion" way (html,css,js three-piece suit),
  * you should import your dependencies in html file using <script> tag rather in this js file, such as:
- * <script src="https://YOUR-CDN.com/dependencies-path"></script>
+ * `<script src="https://YOUR-CDN.com/dependencies-path"><\/script>`
  * PackerJS allow you do this by modifying template.html.
  * See line 13("customize your dependencies") in template.html.
  *
